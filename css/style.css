@@ -1,0 +1,80 @@
+:root {
+    --black-color: #121212;
+    --accent-color: #9D4EB5;
+	--grey-500-color: #E5E5E5;
+	--grey-800-color: #393939;
+}
+
+html, body {
+	background-color: #FAFAFB;
+	font-family: Nunito;
+	font-weight: bold;
+}
+
+footer {
+	color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+    background-color: var(--black-color);
+}
+
+.logo {
+	margin: 3% 0 3% 0;
+}
+
+.navbar a {
+	margin-left: 16px;
+	text-decoration: none;
+	color: var(--black-color);
+}
+
+.footer-column {
+	padding: 0px;
+	margin-right: 24px;
+}
+
+.footer-column ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.footer-column ul a, .footer-column ul span {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--grey-500-color);
+}
+
+.footer-column ul li {
+	margin: 8px 0px;
+	padding: 0px;
+	line-height: normal;
+}
+
+.footer-column-header {
+	font-weight: 900;
+	font-size: 18px;
+}
+
+.footer-copyright {
+	color: var(--grey-800-color);
+	font-size: 14px;
+}
+
+.body-header1 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.body-subheader-small {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 200;
+}
+
+.accent-text {
+	color: var(--accent-color)
+}
