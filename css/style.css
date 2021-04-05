@@ -137,7 +137,7 @@ footer {
 }
 
 .navbar-nav {
-    text-align: center;
+    text-align: right;
 }
 .navbar-nav>li {
     float: initial;
