@@ -1,1 +1,1 @@
-![](Readme\index_page.png)
+![](Readme/index_page.png)
